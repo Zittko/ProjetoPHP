@@ -20,5 +20,5 @@
 	echo "<br/> Ano: ".$ano;
 	echo "<br/> Ano: ".exibirano();
 	echo "<br/> Ano: ".exibirano();
-	echo "<br/> Ano: ".($ano + 1);
+	echo "<br/> Ano: ".$ano + 1;
  ?>
