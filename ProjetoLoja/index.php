@@ -11,7 +11,7 @@
 		<label for="idName">Name:</label>
 		<input type="text" name="name" id="idName" 
 		placeholder="Type your name" maxlength="50" 
-		required autocomplete="off">
+		required autocomplete="off" autofocus>
 		<br><br>
 		<label for="idEmail">Email:</label>
 		<input type="email" name="email" id="idEmail"
