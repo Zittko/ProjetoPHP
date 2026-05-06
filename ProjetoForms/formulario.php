@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Formularios PHP</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="">
 </head>
 <body>
 	<h2>Formularios PHP</h2>
@@ -17,7 +17,7 @@
 		<input type="password" name="password" id="password"
 		maxlength="16" required autocomplete="off" size="15">
 		<br><br>
-		<input type="submit" name="login" value="Login">z
+		<input type="submit" name="login" value="Login">
 		<input type="reset" name="clear" value="Clear">
 
 	</form>

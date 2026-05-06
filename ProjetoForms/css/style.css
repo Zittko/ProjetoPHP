@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+
+h1 {
+	margin: 1rem;
+	text-align: center;
+}
+
+#imcForm {
+	border: solid 1px;
+	padding: 2rem;
+}
