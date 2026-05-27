@@ -11,7 +11,6 @@
 		$_SESSION['nome'] = "canjica e arroz doce";
 		// session_unset();
 		session_destroy();
-
 	 ?>
 	 <h3>Sessão de Usuário</h3>
 	 <label>Bem vindo usuário: </label><?php echo $_SESSION['nome']; ?>
