@@ -9,7 +9,7 @@
 		if ($_POST) {
 			session_start();
 			$_SESSION["nome"] = $_POST['nome'];
-			$_SESSION{"senha"} = $_POST['senha'];
+			$_SESSION["senha"] = $_POST['senha'];
 
 			header("location:sessao_formularios.php");
 		}
@@ -22,8 +22,7 @@
 		<input type="text" name="nome" id="nome">
 		<label for="senha">Senha: </label>
 		<input type="password" name="senha" id="senha">
-		<input type="submit" name="enviar" value="Enviar"
-		>
+		<input type="submit" name="enviar" value="Enviar">
 	</form>
 </body>
 </html>
