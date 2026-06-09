@@ -8,11 +8,11 @@
 	// mysqli_connect("localhost", "user_dbloja","admin123", "dbLoja");
 	$con = mysqli_connect($HOST, $USER, $PWD, $DB);
 
-	mysqli_close($con);
 	if (mysqli_connect_errno()) {
 		echo "Não foi possível conectar com o Banco de Dados" . mysqli_connect_error();
 	} else {
 		echo "Banco de Dados conectado com sucesso!!!";
+		mysqli_close($con);
 	}
 	
  ?>
