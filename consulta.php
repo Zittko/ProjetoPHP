@@ -14,7 +14,7 @@
 		$resultado =  mysqli_query($con, $sql);
 		echo "<h2>Lista de Pessoas Cadastradas</h2>";
 		while ($pessoa = mysqli_fetch_array($resultado)) {
-			echo $pessoa['Nome'] ." - ". $pessoa['Email'] ."-". $pessoa['Idade'] . " <br>";
+			echo $pessoa['nome'] ." - ". $pessoa['email'] ." -" . $pessoa['idade'] . " <br>";
 		}
 		mysqli_close($con);
 	}
